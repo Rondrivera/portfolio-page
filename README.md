@@ -10,8 +10,13 @@ portfolio page 1
   <title>Ron</title>
 </head>
 <body>
-	<div class="nav">
-	<div class="container">
+	<div class="row">
+	<div class="col-md-12">
+    <div class="nav nav-pills">
+      <li role="presentation" class="active"><a href="#">Home</a></li>
+      <li role="presentation"><a href="#">About</a></li>
+      <li role="presentation"><a href="#">Portfolio</a></li>
+      <li role presentation="active" class="active"><a href="#">Contact</a></li>
 	</div>
 
 	<div class="header">
@@ -37,14 +42,37 @@ portfolio page 1
 	    <img src="http://www.webmonkey.com/wp-content/uploads/2010/06/SenchaTouch.jpg">
 	    <h3>Mobile Applications</h3>
 	    <p>I look to take your most prized possessions and</p> 
+	    <p>compile them into a beautifully bound hardcover album.</p>
+	</div>
+	
+	<div class="feature">
+	<div class="container">
+      <h1>Create.</h1>
+      <h1>Inspire.</h1>
+      <h1>Actualize.</h1>
+	</div>
+
+	<div class="footer">
+	<div class="container">
+      <p>Email</p>
+      <p>Twitter</p>
+      <p>Instagram</p>
+      <p>Facebook</p>
+	</div>
+
+</body>
+</html>
+
 	    
-	    html, body {
+	html, body {
 	color: #fff;
 	text-align: center;
 	font: 'Sans serif', garamond;
-    font-size: 28px;
+    font-size: 30px;
 }
-
+.nav nav-pills .li{
+  display: inline;
+}
 .header {
 	background: url(http://indiegames.ch/wordpress/wp-content/uploads/2014/06/Hintergrund1.jpg);
 	background-size: cover;
@@ -61,5 +89,9 @@ portfolio page 1
   padding-top: 100px;
   color: black;
   font: Verdana, Geneva, San serif;
+}
+.footer p{
+  font-color: black; 
+  display: inline;
 }
 
